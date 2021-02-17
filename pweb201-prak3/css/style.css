@@ -1,0 +1,110 @@
+table {
+  width: 100%;
+  border: 1px;
+  border-collapse:collapse;
+  margin-bottom: 50px;
+}
+
+td {
+  padding: 5px;
+  text-align: center;
+  background-color: #e8eaf6;
+}
+
+td.field {
+  width: 30%;
+  padding: 10px;
+  text-align: right;
+  font-weight: bold;
+  background-color: #000;
+  color: #fff;
+}
+
+td.data {
+  padding: 10px;
+}
+
+th {
+  background-color: #000;
+  color: #fff;
+  padding: 10px;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+.row {
+  width: 100%;
+  display: flex;
+}
+
+.col3 {
+  flex: 25%;
+  float: left;
+  margin: 3px;
+  padding: 3px;
+}
+
+.col4 {
+  flex: 33%;
+  float: left;
+  margin: 3px;
+  padding: 3px;
+}
+
+.col6 {
+  flex: 50%;
+  float: left;
+  margin: 3px;
+  padding: 3px;
+}
+
+.col8 {
+  flex: 66%;
+  float: left;
+  margin: 3px;
+  padding: 3px;
+}
+
+.col9 {
+  flex: 75%;
+  float: left;
+  margin: 3px;
+  padding: 3px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+a span{
+  transition: 0.5s;
+}
+
+a:hover span{
+  color: #d35400;
+  text-shadow: 0 0 10px #d35400,
+               0 0 20px #d35400,
+               0 0 40px #d35400,
+               0 0 80px #d35400,
+               0 0 120px #d35400,
+               0 0 160px #d35400;
+}
+
+a.posisi{
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  line-height: 5;
+}
+
+a:link, a:visited{
+  color: blue;
+  text-decoration: none;
+}
